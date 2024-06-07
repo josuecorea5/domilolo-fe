@@ -1,0 +1,41 @@
+.nav {
+  color: #352D28;
+  border-bottom: 1px solid #BCBCBD;
+  display: flex;
+}
+
+.nav ul {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav p {
+  display: flex;
+  width: 65%;
+  justify-content: center
+}
+
+.nav-active {
+  position: relative;
+}
+
+.nav-active span {
+  width: inherit;
+  border-bottom: 3px solid #352D28;
+  position: absolute;
+  top: 39px;
+  left: 0;
+}
+
+@media (max-width: 375px) {
+  .nav p {
+    display: none;
+  }
+}
