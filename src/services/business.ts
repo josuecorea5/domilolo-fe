@@ -1,4 +1,4 @@
-const APIURL = 'https://domilolo-api.onrender.com/api/v1';
+const APIURL = import.meta.env.VITE_URL_API;
 
 export const getBusinesses = async () => {
   try {
